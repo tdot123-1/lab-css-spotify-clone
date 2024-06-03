@@ -127,3 +127,54 @@ h1 {
 .info-article p {
     padding-top: 1.7em;
 }
+
+.green-section {
+    background-color: #00B172;
+    color: white;
+    padding: 3em;
+    margin: 0 1.5em;
+    height: 100vh;
+    position: relative;
+}
+
+.green-section .spotify-icon {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 10%;
+    height: auto;
+}
+
+.green-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.column {
+    width: 30%;
+}
+
+.green-container .column img {
+    height: 35%
+}
+
+.green-article {
+    padding-bottom: 3em;
+}
+
+.green-title {
+    width: 35%;
+    border-bottom: 0.2em solid white;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+.green-title h2 {
+    font-weight: bold;
+}
+
+.green-article h3 {
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
