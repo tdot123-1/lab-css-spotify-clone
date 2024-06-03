@@ -34,9 +34,11 @@ html {
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 3em; 
-    background-color: grey;
+    height: 12vh; 
+    background-color: white;
     align-items: center;
+    padding: 0 2vw;
+    color: #1A1A1A;
 }
 
 .navbar ul {
@@ -50,14 +52,20 @@ html {
     margin-right: 1em;
 }
 
+.navbar img {
+    width: 12%;
+    height: 70%;
+}
+
 .header {
     color: white;
-    margin-top: 3em;
+    margin-top: 10vh;
     background-image: url("/images/landing.jpg");
-    background-position: 0 0;
+    background-position: center 55%;
     background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
-    height: 95vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,6 +76,54 @@ h1 {
     font-size: 3em;
 }
 
-.header h1, h2 {
-    margin: 0 2em 10px 2em;
+.title {
+    display: block;
+    width: 100%;
+    padding: 0 25vw 1em;
+    text-align: center;
+}
+
+.info-section {
+    padding-top: 2em;
+    color: #1A1A1A;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+}
+
+.info-title div {
+    width: 20%;
+    border-bottom: 0.2em solid #00B172;
+    text-align: center;
+    padding-bottom: 0.7em;
+}
+
+.info-title h2 {
+    font-weight: bold;
+}
+
+.info-article img {
+    width: 50%;
+}
+
+.general-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.general-info h3 {
+    font-weight: bold;
+    color: #00B172
+}
+
+.info-article {
+    width: 30%;
+    text-align: center;
+    padding: 5em;
+}
+
+.info-article p {
+    padding-top: 1.7em;
 }
