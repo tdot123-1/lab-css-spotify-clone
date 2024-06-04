@@ -39,6 +39,7 @@ html {
     align-items: center;
     padding: 0 2vw;
     color: #1A1A1A;
+    z-index: 100;
 }
 
 .navbar ul {
@@ -54,7 +55,7 @@ html {
 
 .navbar img {
     width: 12%;
-    height: 70%;
+    
 }
 
 .header {
@@ -149,14 +150,17 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    height: 80%;
 }
 
 .column {
     width: 30%;
 }
 
-.green-container .column img {
-    height: 35%
+
+
+.app-col img {
+    height: 100%;
 }
 
 .green-article {
@@ -177,4 +181,54 @@ h1 {
 .green-article h3 {
     padding-bottom: 0.5em;
     font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+@media (max-width: 768px) {
+    .general-info {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .info-title div {
+        width: 50%;
+    }
+
+    .info-article { 
+        width: 50%;
+        align-self: center;
+        padding: 1em 0;
+    }
+
+    .green-title {
+        width: 80%;
+    }
+
+    .column {
+        width: 40%;
+    }
+
+    .app-col {
+        display: none;
+    }
+
+    .header {
+        margin-top: 5vh;
+    }
+
+    .navbar {
+        height: 5vh;
+    }
+
+    .navbar img {
+        width: 20%;
+    }
+
+    .navbar ul li {
+        margin-right: 0.5em
+    }
 }
